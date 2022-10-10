@@ -1,11 +1,9 @@
-package com.nowornaver.booksearchapp
+package com.nowornaver.booksearchapp.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.nowornaver.booksearchapp.R
 import com.nowornaver.booksearchapp.databinding.ActivityMainBinding
-import com.nowornaver.booksearchapp.ui.view.FavoriteFragment
-import com.nowornaver.booksearchapp.ui.view.SearchFragment
-import com.nowornaver.booksearchapp.ui.view.SettingFragment
 
 class MainActivity : AppCompatActivity() {
     private val binding : ActivityMainBinding by lazy {
